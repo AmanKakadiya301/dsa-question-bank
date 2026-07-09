@@ -1,0 +1,1712 @@
+{
+  "project": "DSA Question Bank \u2013 Interview Experiences 2023",
+  "stats": {
+    "interviewPDFs": 45,
+    "totalQuestions": 96,
+    "topicSections": 11,
+    "practiceLinks": 100
+  },
+  "patterns": [
+    {
+      "id": "arrays-hashing",
+      "icon": "\ud83e\uddee",
+      "color": "rgba(247,129,102,.15)",
+      "problems": [
+        {
+          "title": "Maximum XOR Score \u2013 Powers of 2 Array",
+          "description": "Given an array of powers of 2, repeatedly choose two elements X and Y, add X XOR Y to the score, and remove them. Maximize the total score.",
+          "company": "Urban Company SDE",
+          "difficulty": "hard",
+          "links": [
+            {
+              "title": "Maximum XOR with Element from Array",
+              "url": "https://leetcode.com/problems/maximum-xor-with-an-element-from-array/",
+              "platform": "leetcode"
+            },
+            {
+              "title": "Maximum XOR of Two Numbers in an Array",
+              "url": "https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/",
+              "platform": "leetcode"
+            }
+          ]
+        },
+        {
+          "title": "XOR Pairing \u2013 Maximum Value",
+          "description": "Given an array of powers of 2, XOR any two elements and remove them until at most one remains. Find the maximum possible XOR value/score.",
+          "company": "Urban Company SDE",
+          "difficulty": "medium",
+          "links": [
+            {
+              "title": "Maximum XOR of Two Numbers \u2b50",
+              "url": "https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/",
+              "platform": "leetcode"
+            },
+            {
+              "title": "GFG \u2013 Max XOR Array",
+              "url": "https://www.geeksforgeeks.org/maximum-xor-of-two-numbers-in-an-array/",
+              "platform": "gfg"
+            }
+          ]
+        },
+        {
+          "title": "Permutation Conversion \u2013 Minimize Cost",
+          "description": "Convert image/permutation A to B and then B to C using constrained operations on first/last elements with costs K1 and K2. Minimize total conversion cost.",
+          "company": "Urban Company SDE",
+          "difficulty": "hard",
+          "links": [
+            {
+              "title": "Next Permutation \u2b50",
+              "url": "https://leetcode.com/problems/next-permutation/",
+              "platform": "leetcode"
+            },
+            {
+              "title": "Permutations \u2b50",
+              "url": "https://leetcode.com/problems/permutations/",
+              "platform": "leetcode"
+            },
+            {
+              "title": "GFG \u2013 Min Cost Conversion",
+              "url": "https://www.geeksforgeeks.org/minimum-cost-to-convert-array-a-to-array-b-by-rotating-or-reversing-subarrays/",
+              "platform": "gfg"
+            }
+          ]
+        },
+        {
+          "title": "Dynamic Theatre Seat Queries",
+          "description": "Process dynamic theatre-seat queries: occupy current seat X and shift later seat numbers; answer original seat number for current seat X.",
+          "company": "Urban Company SDE",
+          "difficulty": "hard",
+          "links": [
+            {
+              "title": "Exam Room (seat allocation)",
+              "url": "https://leetcode.com/problems/exam-room/",
+              "platform": "leetcode"
+            },
+            {
+              "title": "GFG \u2013 Order Statistics / Fenwick Tree \u2b50",
+              "url": "https://www.geeksforgeeks.org/order-statistic-tree-using-fenwick-tree/",
+              "platform": "gfg"
+            }
+          ]
+        },
+        {
+          "title": "First Repeating & Non-Repeating Character",
+          "description": "Find first repeating and first non-repeating character in a string. Optimize space from map/vector to bitmask.",
+          "company": "Cisco SDE",
+          "difficulty": "easy",
+          "links": [
+            {
+              "title": "First Unique Character in a String \u2b50",
+              "url": "https://leetcode.com/problems/first-unique-character-in-a-string/",
+              "platform": "leetcode"
+            },
+            {
+              "title": "GFG \u2013 First Non-Repeating Char",
+              "url": "https://www.geeksforgeeks.org/given-a-string-find-its-first-non-repeating-character/",
+              "platform": "gfg"
+            }
+          ]
+        },
+        {
+          "title": "Reverse Words In-Place",
+          "description": "Reverse the order of words in a sentence in-place with optimized space (no extra string allocation).",
+          "company": "Cisco SDE",
+          "difficulty": "medium",
+          "links": [
+            {
+              "title": "Reverse Words in a String \u2b50",
+              "url": "https://leetcode.com/problems/reverse-words-in-a-string/",
+              "platform": "leetcode"
+            },
+            {
+              "title": "Reverse Words in a String III",
+              "url": "https://leetcode.com/problems/reverse-words-in-a-string-iii/",
+              "platform": "leetcode"
+            }
+          ]
+        },
+        {
+          "title": "Subarray Sum Equals K",
+          "description": "Count the number of continuous subarrays whose sum equals exactly K.",
+          "company": "Slice SDE",
+          "difficulty": "medium",
+          "links": [
+            {
+              "title": "Subarray Sum Equals K \u2b50",
+              "url": "https://leetcode.com/problems/subarray-sum-equals-k/",
+              "platform": "leetcode"
+            }
+          ]
+        },
+        {
+          "title": "Max Sum from Ends",
+          "description": "Remove K elements from either start or end of an array so the sum of removed elements is maximum.",
+          "company": "Rippling SDE",
+          "difficulty": "medium",
+          "links": [
+            {
+              "title": "Maximum Points You Can Obtain from Cards \u2b50",
+              "url": "https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/",
+              "platform": "leetcode"
+            }
+          ]
+        },
+        {
+          "title": "Weighted Remove from Ends",
+          "description": "After each removal, multiply by a corresponding weight array and maximize the weighted sum.",
+          "company": "Rippling SDE",
+          "difficulty": "hard",
+          "links": [
+            {
+              "title": "Stone Game II",
+              "url": "https://leetcode.com/problems/stone-game-ii/",
+              "platform": "leetcode"
+            },
+            {
+              "title": "Stone Game (pick-from-ends DP)",
+              "url": "https://leetcode.com/problems/stone-game/",
+              "platform": "leetcode"
+            }
+          ]
+        },
+        {
+          "title": "Next Kth Greater Element",
+          "description": "Find the next Kth greater element index to the right for every element in the array.",
+          "company": "Rippling SDE",
+          "difficulty": "medium",
+          "links": [
+            {
+              "title": "Next Greater Element I \u2b50",
+              "url": "https://leetcode.com/problems/next-greater-element-i/",
+              "platform": "leetcode"
+            },
+            {
+              "title": "Next Greater Element II (circular)",
+              "url": "https://leetcode.com/problems/next-greater-element-ii/",
+              "platform": "leetcode"
+            },
+            {
+              "title": "GFG \u2013 Next Greater Element",
+              "url": "https://www.geeksforgeeks.org/next-greater-element/",
+              "platform": "gfg"
+            }
+          ]
+        },
+        {
+          "title": "Sort K-Sorted Array",
+          "description": "Sort an array where each element cannot move more than K positions from its final sorted position. Expected: min-heap approach.",
+          "company": "Wells Fargo",
+          "difficulty": "medium",
+          "links": [
+            {
+              "title": "GFG \u2013 Sort a K-Sorted Array \u2b50",
+              "url": "https://www.geeksforgeeks.org/nearly-sorted-algorithm/",
+              "platform": "gfg"
+            }
+          ]
+        },
+        {
+          "title": "Sorted Array to Balanced BST",
+          "description": "Given a sorted array, convert it into a balanced BST.",
+          "company": "MathWorks EDG",
+          "difficulty": "easy",
+          "links": [
+            {
+              "title": "Convert Sorted Array to BST \u2b50",
+              "url": "https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/",
+              "platform": "leetcode"
+            }
+          ]
+        },
+        {
+          "title": "Find Queue with Minimum Elements",
+          "description": "Given m queues each with at least n values, identify the queue with the minimum number of elements using only pop(); no direct size() access.",
+          "company": "MathWorks EDG",
+          "difficulty": "medium",
+          "links": [
+            {
+              "title": "Number of Recent Calls",
+              "url": "https://leetcode.com/problems/number-of-recent-calls/",
+              "platform": "leetcode"
+            },
+            {
+              "title": "GFG \u2013 Queue Data Structure",
+              "url": "https://www.geeksforgeeks.org/queue-data-structure/",
+              "platform": "gfg"
+            }
+          ]
+        },
+        {
+          "title": "Bit Manipulation Coding Questions",
+          "description": "Around 3 coding questions from bit manipulation and numbers.",
+          "company": "Western Digital SDE",
+          "difficulty": "medium",
+          "links": [
+            {
+              "title": "Number of 1 Bits",
+              "url": "https://leetcode.com/problems/number-of-1-bits/",
+              "platform": "leetcode"
+            },
+            {
+              "title": "Single Number",
+              "url": "https://leetcode.com/problems/single-number/",
+              "platform": "leetcode"
+            },
+            {
+              "title": "Power of Two",
+              "url": "https://leetcode.com/problems/power-of-two/",
+              "platform": "leetcode"
+            }
+          ]
+        },
+        {
+          "title": "Bit Manipulation with Macros",
+          "description": "Use macros to solve bit-manipulation coding questions (C/C++ macro bit tricks).",
+          "company": "Western Digital SDE",
+          "difficulty": "medium",
+          "links": [
+            {
+              "title": "GFG \u2013 Bit Manipulation Tactics \u2b50",
+              "url": "https://www.geeksforgeeks.org/bits-manipulation-important-tactics/",
+              "platform": "gfg"
+            }
+          ]
+        },
+        {
+          "title": "Size Without sizeof()",
+          "description": "Write code to print the size of a datatype without using sizeof().",
+          "company": "Western Digital SDE",
+          "difficulty": "easy",
+          "links": [
+            {
+              "title": "GFG \u2013 Size without sizeof \u2b50",
+              "url": "https://www.geeksforgeeks.org/how-to-find-size-of-a-data-type-without-using-sizeof-operator/",
+              "platform": "gfg"
+            }
+          ]
+        },
+        {
+          "title": "Detect Endianness",
+          "description": "Write code to detect whether the machine is little-endian or big-endian.",
+          "company": "Western Digital SDE",
+          "difficulty": "easy",
+          "links": [
+            {
+              "title": "GFG \u2013 Little and Big Endian \u2b50",
+              "url": "https://www.geeksforgeeks.org/little-and-big-endian-mystery/",
+              "platform": "gfg"
+            }
+          ]
+        },
+        {
+          "title": "Dynamic 2D Array on Heap",
+          "description": "Write code to store a 2D array in heap memory (dynamic allocation in C/C++).",
+          "company": "Western Digital SDE",
+          "difficulty": "easy",
+          "links": [
+            {
+              "title": "GFG \u2013 Dynamic 2D Array \u2b50",
+              "url": "https://www.geeksforgeeks.org/dynamically-allocate-2d-array-c/",
+              "platform": "gfg"
+            }
+          ]
+        },
+        {
+          "title": "Implement Convolution in Python",
+          "description": "Implement convolution operation in Python as an algorithm/code exercise.",
+          "company": "Schneider Electric Data Science",
+          "difficulty": "medium",
+          "links": [
+            {
+              "title": "GFG \u2013 2D Convolution \u2b50",
+              "url": "https://www.geeksforgeeks.org/2d-convolution-implementation/",
+              "platform": "gfg"
+            },
+            {
+              "title": "Multiply Strings (polynomial analogous)",
+              "url": "https://leetcode.com/problems/multiply-strings/",
+              "platform": "leetcode"
+            }
+          ]
+        },
+        {
+          "title": "Sorting / Mental Ability Puzzles",
+          "description": "Puzzles involving sorting/basic mental ability.",
+          "company": "HSBC Analytics",
+          "difficulty": "easy",
+          "links": [
+            {
+              "title": "GFG \u2013 Round Table Coin Puzzle \u2b50",
+              "url": "https://www.geeksforgeeks.org/puzzle-round-table-coin-game/",
+              "platform": "gfg"
+            },
+            {
+              "title": "Sort Colors (Dutch Flag)",
+              "url": "https://leetcode.com/problems/sort-colors/",
+              "platform": "leetcode"
+            }
+          ]
+        }
+      ],
+      "pattern": "Arrays, Hashing & Prefix/Suffix Thinking"
+    },
+    {
+      "id": "linked-lists",
+      "icon": "\ud83d\udd17",
+      "color": "rgba(121,192,255,.15)",
+      "problems": [
+        {
+          "title": "Intersection of Two Linked Lists",
+          "description": "Find the intersection point of two linked lists with O(1) extra space.",
+          "company": "Urban Company SDE",
+          "difficulty": "easy",
+          "links": [
+            {
+              "title": "Intersection of Two Linked Lists \u2b50",
+              "url": "https://leetcode.com/problems/intersection-of-two-linked-lists/",
+              "platform": "leetcode"
+            }
+          ]
+        },
+        {
+          "title": "Trapping Rain Water",
+          "description": "First O(n) space accepted partially, interviewer expected O(1) space optimization (two-pointer approach).",
+          "company": "Urban Company SDE",
+          "difficulty": "hard",
+          "links": [
+            {
+              "title": "Trapping Rain Water \u2b50 (from PDF)",
+              "url": "https://leetcode.com/problems/trapping-rain-water/",
+              "platform": "leetcode"
+            }
+          ]
+        },
+        {
+          "title": "Sorted List to BST",
+          "description": "Convert a sorted linked list to BST. First solve with extra space, then optimize to constant/low extra space.",
+          "company": "MathWorks SDE",
+          "difficulty": "medium",
+          "links": [
+            {
+              "title": "Convert Sorted List to BST \u2b50",
+              "url": "https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/",
+              "platform": "leetcode"
+            }
+          ]
+        },
+        {
+          "title": "Reverse a Linked List",
+          "description": "Reverse a linked list (iterative and recursive approaches).",
+          "company": "MathWorks SDE",
+          "difficulty": "easy",
+          "links": [
+            {
+              "title": "Reverse Linked List \u2b50",
+              "url": "https://leetcode.com/problems/reverse-linked-list/",
+              "platform": "leetcode"
+            },
+            {
+              "title": "Reverse Linked List II",
+              "url": "https://leetcode.com/problems/reverse-linked-list-ii/",
+              "platform": "leetcode"
+            }
+          ]
+        },
+        {
+          "title": "Middle of Linked List",
+          "description": "Find the middle of a linked list using slow-fast pointer technique.",
+          "company": "MathWorks SDE",
+          "difficulty": "easy",
+          "links": [
+            {
+              "title": "Middle of the Linked List \u2b50",
+              "url": "https://leetcode.com/problems/middle-of-the-linked-list/",
+              "platform": "leetcode"
+            }
+          ]
+        },
+        {
+          "title": "Linked List Element Difference",
+          "description": "Modify a linked list in place so the ith element stores the difference between the ith and (l\u2212i)th element until the first half.",
+          "company": "Wells Fargo",
+          "difficulty": "medium",
+          "links": [
+            {
+              "title": "Reorder List \u2b50",
+              "url": "https://leetcode.com/problems/reorder-list/",
+              "platform": "leetcode"
+            },
+            {
+              "title": "GFG \u2013 ith and jth Difference",
+              "url": "https://www.geeksforgeeks.org/difference-between-ith-and-jth-element-linked-list/",
+              "platform": "gfg"
+            }
+          ]
+        },
+        {
+          "title": "Doubly Linked List for Matrix Shifts",
+          "description": "Use a doubly linked list to optimize insertion in a circular-shift matrix simulation problem.",
+          "company": "Qualcomm Software",
+          "difficulty": "medium",
+          "links": [
+            {
+              "title": "Design Linked List",
+              "url": "https://leetcode.com/problems/design-linked-list/",
+              "platform": "leetcode"
+            },
+            {
+              "title": "GFG \u2013 Doubly Linked List \u2b50",
+              "url": "https://www.geeksforgeeks.org/doubly-linked-list/",
+              "platform": "gfg"
+            }
+          ]
+        },
+        {
+          "title": "LFU Cache Implementation",
+          "description": "Implement LFU cache using priority queue plus doubly linked list, or equivalent structures. Discuss time complexity.",
+          "company": "Urban Company",
+          "difficulty": "hard",
+          "links": [
+            {
+              "title": "LFU Cache \u2b50 (Hard)",
+              "url": "https://leetcode.com/problems/lfu-cache/",
+              "platform": "leetcode"
+            },
+            {
+              "title": "LRU Cache (prerequisite)",
+              "url": "https://leetcode.com/problems/lru-cache/",
+              "platform": "leetcode"
+            }
+          ]
+        }
+      ],
+      "pattern": "Linked Lists"
+    },
+    {
+      "id": "trees-bst-heaps",
+      "icon": "\ud83c\udf33",
+      "color": "rgba(86,211,100,.15)",
+      "problems": [
+        {
+          "title": "Path to Node in Complete Binary Tree",
+          "description": "In a complete binary tree numbered level-order from 1, given target x, determine whether x exists and return path from root to x.",
+          "company": "Amazon SDE Intern",
+          "difficulty": "medium",
+          "links": [
+            {
+              "title": "Count Complete Tree Nodes",
+              "url": "https://leetcode.com/problems/count-complete-tree-nodes/",
+              "platform": "leetcode"
+            },
+            {
+              "title": "Binary Tree Paths",
+              "url": "https://leetcode.com/problems/binary-tree-paths/",
+              "platform": "leetcode"
+            },
+            {
+              "title": "GFG \u2013 Path from Root to Node \u2b50",
+              "url": "https://www.geeksforgeeks.org/path-root-given-node-binary-tree/",
+              "platform": "gfg"
+            }
+          ]
+        },
+        {
+          "title": "Medium Tree Question (Amazon)",
+          "description": "One medium tree question (exact problem not disclosed).",
+          "company": "Amazon SDE",
+          "difficulty": "medium",
+          "links": [
+            {
+              "title": "Diameter of Binary Tree",
+              "url": "https://leetcode.com/problems/diameter-of-binary-tree/",
+              "platform": "leetcode"
+            },
+            {
+              "title": "LCA of Binary Tree",
+              "url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/",
+              "platform": "leetcode"
+            },
+            {
+              "title": "Serialize / Deserialize Binary Tree",
+              "url": "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/",
+              "platform": "leetcode"
+            }
+          ]
+        },
+        {
+          "title": "Kth Minimum with Max Heap",
+          "description": "Find kth minimum element in a binary tree using a max heap. Follow-ups: duplicate values, kth distinct minimum.",
+          "company": "Urban Company SDE",
+          "difficulty": "medium",
+          "links": [
+            {
+              "title": "Kth Smallest Element in a BST \u2b50",
+              "url": "https://leetcode.com/problems/kth-smallest-element-in-a-bst/",
+              "platform": "leetcode"
+            },
+            {
+              "title": "Kth Largest Element in an Array",
+              "url": "https://leetcode.com/problems/kth-largest-element-in-an-array/",
+              "platform": "leetcode"
+            }
+          ]
+        },
+        {
+          "title": "Level-Order Traversal (BFS)",
+          "description": "Level-order traversal of a binary tree (BFS).",
+          "company": "Wells Fargo",
+          "difficulty": "easy",
+          "links": [
+            {
+              "title": "Binary Tree Level Order Traversal \u2b50",
+              "url": "https://leetcode.com/problems/binary-tree-level-order-traversal/",
+              "platform": "leetcode"
+            },
+            {
+              "title": "Zigzag Level Order Traversal",
+              "url": "https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/",
+              "platform": "leetcode"
+            }
+          ]
+        },
+        {
+          "title": "Medium BST Question (MathWorks)",
+          "description": "One LeetCode medium BST question (exact problem not disclosed).",
+          "company": "MathWorks EDG",
+          "difficulty": "medium",
+          "links": [
+            {
+              "title": "Validate Binary Search Tree",
+              "url": "https://leetcode.com/problems/validate-binary-search-tree/",
+              "platform": "leetcode"
+            },
+            {
+              "title": "Insert into a BST",
+              "url": "https://leetcode.com/problems/insert-into-a-binary-search-tree/",
+              "platform": "leetcode"
+            }
+          ]
+        },
+        {
+          "title": "Sorted List to BST",
+          "description": "Convert sorted linked list to BST.",
+          "company": "MathWorks SDE",
+          "difficulty": "medium",
+          "links": [
+            {
+              "title": "Convert Sorted List to BST \u2b50",
+              "url": "https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/",
+              "platform": "leetcode"
+            }
+          ]
+        },
+        {
+          "title": "Sorted Array to Balanced BST",
+          "description": "Convert sorted array to balanced BST.",
+          "company": "MathWorks EDG",
+          "difficulty": "easy",
+          "links": [
+            {
+              "title": "Convert Sorted Array to BST \u2b50",
+              "url": "https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/",
+              "platform": "leetcode"
+            }
+          ]
+        },
+        {
+          "title": "Tree Edge Removal \u2013 Max Weight",
+          "description": "Given a tree, remove edges so each node has at most k edges while maximizing sum of remaining edge weights.",
+          "company": "Rippling SDE",
+          "difficulty": "hard",
+          "links": [
+            {
+              "title": "Maximum Product of Splitted Binary Tree",
+              "url": "https://leetcode.com/problems/maximum-product-of-splitted-binary-tree/",
+              "platform": "leetcode"
+            },
+            {
+              "title": "GFG \u2013 Maximum Edge Removal \u2b50",
+              "url": "https://www.geeksforgeeks.org/maximum-edge-removal-from-tree-to-make-even-forest/",
+              "platform": "gfg"
+            }
+          ]
+        },
+        {
+          "title": "Heap Discussion \u2013 Kth Element",
+          "description": "Discuss what a heap is and why a max heap is suitable for finding the kth minimum element.",
+          "company": "Urban Company SDE",
+          "difficulty": "easy",
+          "links": [
+            {
+              "title": "Kth Largest Element in a Stream",
+              "url": "https://leetcode.com/problems/kth-largest-element-in-a-stream/",
+              "platform": "leetcode"
+            },
+            {
+              "title": "GFG \u2013 Heap vs BST for Priority Queue",
+              "url": "https://www.geeksforgeeks.org/why-is-binary-heap-preferred-over-bst-for-priority-queue/",
+              "platform": "gfg"
+            }
+          ]
+        }
+      ],
+      "pattern": "Trees, BST, and Heaps"
+    },
+    {
+      "id": "graphs",
+      "icon": "\ud83d\udd78",
+      "color": "rgba(210,168,255,.15)",
+      "problems": [
+        {
+          "title": "Zombie Infection (Rotting Oranges)",
+          "description": "Zombie infection in a 2D grid: each zombie converts adjacent humans per hour; find hours to infect all humans. Multi-source BFS.",
+          "company": "Amazon SDE Intern",
+          "difficulty": "medium",
+          "links": [
+            {
+              "title": "Rotting Oranges \u2b50 (from PDF)",
+              "url": "https://leetcode.com/problems/rotting-oranges/",
+              "platform": "leetcode"
+            }
+          ]
+        },
+        {
+          "title": "Floyd-Warshall Algorithm",
+          "description": "Floyd-Warshall algorithm coding question (all-pairs shortest path).",
+          "company": "Cisco SDE OA",
+          "difficulty": "medium",
+          "links": [
+            {
+              "title": "Find City \u2013 Floyd-Warshall \u2b50",
+              "url": "https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/",
+              "platform": "leetcode"
+            },
+            {
+              "title": "GFG \u2013 Floyd-Warshall Algorithm",
+              "url": "https://www.geeksforgeeks.org/floyd-warshall-algorithm-dp-16/",
+              "platform": "gfg"
+            }
+          ]
+        },
+        {
+          "title": "DP on Graph with Bitmask (TSP)",
+          "description": "DP on graph with bitmasking (TSP-style or Hamiltonian path variant).",
+          "company": "Cisco SDE OA",
+          "difficulty": "hard",
+          "links": [
+            {
+              "title": "Shortest Path Visiting All Nodes \u2b50",
+              "url": "https://leetcode.com/problems/shortest-path-visiting-all-nodes/",
+              "platform": "leetcode"
+            },
+            {
+              "title": "GFG \u2013 TSP with Bitmask DP",
+              "url": "https://www.geeksforgeeks.org/travelling-salesman-problem-using-dynamic-programming/",
+              "platform": "gfg"
+            }
+          ]
+        },
+        {
+          "title": "Graph + Trie Questions (Google)",
+          "description": "Graph and trie based written-test questions.",
+          "company": "Google Application Engineer",
+          "difficulty": "medium",
+          "links": [
+            {
+              "title": "Number of Connected Components",
+              "url": "https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/",
+              "platform": "leetcode"
+            },
+            {
+              "title": "Word Search II (Trie + Graph)",
+              "url": "https://leetcode.com/problems/word-search-ii/",
+              "platform": "leetcode"
+            }
+          ]
+        },
+        {
+          "title": "Dijkstra's Algorithm Application",
+          "description": "Single-source shortest path application using Dijkstra's algorithm; explain approach and complexity.",
+          "company": "Uber SDE Intern",
+          "difficulty": "medium",
+          "links": [
+            {
+              "title": "Network Delay Time \u2013 Dijkstra \u2b50",
+              "url": "https://leetcode.com/problems/network-delay-time/",
+              "platform": "leetcode"
+            },
+            {
+              "title": "Cheapest Flights within K Stops",
+              "url": "https://leetcode.com/problems/cheapest-flights-within-k-stops/",
+              "platform": "leetcode"
+            }
+          ]
+        },
+        {
+          "title": "Graph Algorithms & MST Overview",
+          "description": "General graph traversal, MST, single-source and all-pairs shortest paths, and complexities.",
+          "company": "Uber SDE Intern",
+          "difficulty": "medium",
+          "links": [
+            {
+              "title": "Min Cost to Connect All Points (MST)",
+              "url": "https://leetcode.com/problems/min-cost-to-connect-all-points/",
+              "platform": "leetcode"
+            },
+            {
+              "title": "GFG \u2013 Kruskal's MST",
+              "url": "https://www.geeksforgeeks.org/kruskals-minimum-spanning-tree-algorithm-greedy-algo-2/",
+              "platform": "gfg"
+            }
+          ]
+        },
+        {
+          "title": "Shortest Path Real-World Usage",
+          "description": "Shortest path real-world usage \u2013 explain Dijkstra application in maps/routing.",
+          "company": "Wells Fargo",
+          "difficulty": "easy",
+          "links": [
+            {
+              "title": "Path with Minimum Effort",
+              "url": "https://leetcode.com/problems/path-with-minimum-effort/",
+              "platform": "leetcode"
+            },
+            {
+              "title": "GFG \u2013 Dijkstra's Algorithm \u2b50",
+              "url": "https://www.geeksforgeeks.org/dijkstras-shortest-path-algorithm-greedy-algo-7/",
+              "platform": "gfg"
+            }
+          ]
+        },
+        {
+          "title": "Job Scheduling \u2013 Dependency Graph",
+          "description": "Job scheduling on a cluster of machines with different configurations (dependency graph / topological scheduling).",
+          "company": "Mercedes Benz Data Science",
+          "difficulty": "medium",
+          "links": [
+            {
+              "title": "Course Schedule (Topological Sort)",
+              "url": "https://leetcode.com/problems/course-schedule/",
+              "platform": "leetcode"
+            },
+            {
+              "title": "Course Schedule II",
+              "url": "https://leetcode.com/problems/course-schedule-ii/",
+              "platform": "leetcode"
+            }
+          ]
+        }
+      ],
+      "pattern": "Graphs"
+    },
+    {
+      "id": "dynamic-programming",
+      "icon": "\ud83e\udde9",
+      "color": "rgba(255,166,87,.15)",
+      "problems": [
+        {
+          "title": "K Inverse Pairs Array",
+          "description": "K inverse pairs in an array. Expected optimized DP around O(nk), not O(nk\u00b2).",
+          "company": "Rippling SDE",
+          "difficulty": "hard",
+          "links": [
+            {
+              "title": "K Inverse Pairs Array \u2b50 (from PDF)",
+              "url": "https://leetcode.com/problems/k-inverse-pairs-array/",
+              "platform": "leetcode"
+            }
+          ]
+        },
+        {
+          "title": "Longest Increasing Subsequence",
+          "description": "LIS and printing the LIS. Follow-ups: non-strict subsequence, handling duplicates.",
+          "company": "Urban Company SDE",
+          "difficulty": "medium",
+          "links": [
+            {
+              "title": "Longest Increasing Subsequence \u2b50",
+              "url": "https://leetcode.com/problems/longest-increasing-subsequence/",
+              "platform": "leetcode"
+            },
+            {
+              "title": "Number of LIS",
+              "url": "https://leetcode.com/problems/number-of-longest-increasing-subsequence/",
+              "platform": "leetcode"
+            }
+          ]
+        },
+        {
+          "title": "Maximum Profit Job Scheduling",
+          "description": "Weighted interval scheduling using DP + binary search.",
+          "company": "Slice SDE",
+          "difficulty": "hard",
+          "links": [
+            {
+              "title": "Job Scheduling \u2013 Maximum Profit \u2b50",
+              "url": "https://leetcode.com/problems/job-scheduling-problem/",
+              "platform": "leetcode"
+            },
+            {
+              "title": "GFG \u2013 Weighted Job Scheduling",
+              "url": "https://www.geeksforgeeks.org/weighted-job-scheduling/",
+              "platform": "gfg"
+            }
+          ]
+        },
+        {
+          "title": "Hard Recursion Question (MathWorks)",
+          "description": "One hard recursion question (exact problem not disclosed).",
+          "company": "MathWorks EDG",
+          "difficulty": "hard",
+          "links": [
+            {
+              "title": "Word Break II (Hard Recursion)",
+              "url": "https://leetcode.com/problems/word-break-ii/",
+              "platform": "leetcode"
+            },
+            {
+              "title": "Generate Parentheses",
+              "url": "https://leetcode.com/problems/generate-parentheses/",
+              "platform": "leetcode"
+            }
+          ]
+        },
+        {
+          "title": "N-Digit Numbers with Digit Sum S",
+          "description": "Find number of N-digit numbers whose digit sum is S (Digit DP).",
+          "company": "MathWorks EDG",
+          "difficulty": "medium",
+          "links": [
+            {
+              "title": "Count of Integers (Digit DP)",
+              "url": "https://leetcode.com/problems/count-of-integers/",
+              "platform": "leetcode"
+            },
+            {
+              "title": "GFG \u2013 N-Digit Numbers Digit Sum \u2b50",
+              "url": "https://www.geeksforgeeks.org/count-of-n-digit-numbers-whose-sum-of-digits-equals-to-given-sum/",
+              "platform": "gfg"
+            }
+          ]
+        },
+        {
+          "title": "Bitmask DP on Graph",
+          "description": "DP on graph with bitmasking \u2013 DP angle emphasized.",
+          "company": "Cisco SDE OA",
+          "difficulty": "hard",
+          "links": [
+            {
+              "title": "Shortest Path Visiting All Nodes (Bitmask DP)",
+              "url": "https://leetcode.com/problems/shortest-path-visiting-all-nodes/",
+              "platform": "leetcode"
+            }
+          ]
+        },
+        {
+          "title": "Weighted Pick-from-Ends DP",
+          "description": "Maximize weighted score picking from either end using DP.",
+          "company": "Rippling SDE",
+          "difficulty": "hard",
+          "links": [
+            {
+              "title": "Burst Balloons (Interval DP)",
+              "url": "https://leetcode.com/problems/burst-balloons/",
+              "platform": "leetcode"
+            },
+            {
+              "title": "Stone Game (pick-from-ends)",
+              "url": "https://leetcode.com/problems/stone-game/",
+              "platform": "leetcode"
+            }
+          ]
+        },
+        {
+          "title": "Permutation Min-Cost Conversion",
+          "description": "Image conversion/permutation minimum-cost problem (DP/greedy insight).",
+          "company": "Urban Company SDE",
+          "difficulty": "medium",
+          "links": [
+            {
+              "title": "Minimum Cost to Move Chips",
+              "url": "https://leetcode.com/problems/minimum-cost-to-move-chips-to-the-same-position/",
+              "platform": "leetcode"
+            },
+            {
+              "title": "Min Operations Array Continuous",
+              "url": "https://leetcode.com/problems/minimum-number-of-operations-to-make-array-continuous/",
+              "platform": "leetcode"
+            }
+          ]
+        }
+      ],
+      "pattern": "Dynamic Programming and Recursion"
+    },
+    {
+      "id": "binary-search",
+      "icon": "\ud83d\udd0d",
+      "color": "rgba(121,192,255,.15)",
+      "problems": [
+        {
+          "title": "Medium Binary Search (Amazon)",
+          "description": "Medium binary-search coding question from Amazon technical round.",
+          "company": "Amazon SDE",
+          "difficulty": "medium",
+          "links": [
+            {
+              "title": "Find Min in Rotated Sorted Array",
+              "url": "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/",
+              "platform": "leetcode"
+            },
+            {
+              "title": "Search in Rotated Sorted Array",
+              "url": "https://leetcode.com/problems/search-in-rotated-sorted-array/",
+              "platform": "leetcode"
+            }
+          ]
+        },
+        {
+          "title": "Binary Search (Google Emphasis)",
+          "description": "Binary search emphasized as very important; Google asked binary-search questions in DSA rounds.",
+          "company": "Google Application Engineer",
+          "difficulty": "easy",
+          "links": [
+            {
+              "title": "Binary Search (Classic)",
+              "url": "https://leetcode.com/problems/binary-search/",
+              "platform": "leetcode"
+            },
+            {
+              "title": "First Bad Version",
+              "url": "https://leetcode.com/problems/first-bad-version/",
+              "platform": "leetcode"
+            }
+          ]
+        },
+        {
+          "title": "Minimum Platforms / Meeting Rooms",
+          "description": "Minimum platforms variation with greedy/binary-search flavor (arrival-departure overlap counting).",
+          "company": "Google Application Engineer",
+          "difficulty": "medium",
+          "links": [
+            {
+              "title": "Meeting Rooms II \u2b50",
+              "url": "https://leetcode.com/problems/meeting-rooms-ii/",
+              "platform": "leetcode"
+            },
+            {
+              "title": "GFG \u2013 Minimum Platforms \u2b50",
+              "url": "https://www.geeksforgeeks.org/minimum-number-platforms-required-railwaybus-station/",
+              "platform": "gfg"
+            }
+          ]
+        },
+        {
+          "title": "Printer Capacity \u2013 Binary Search on Answer",
+          "description": "Find minimum pages/hour x satisfying offline interval customer requests, using binary search on answer.",
+          "company": "Uber SDE Intern",
+          "difficulty": "medium",
+          "links": [
+            {
+              "title": "Koko Eating Bananas \u2b50",
+              "url": "https://leetcode.com/problems/koko-eating-bananas/",
+              "platform": "leetcode"
+            },
+            {
+              "title": "Minimum Speed to Arrive on Time",
+              "url": "https://leetcode.com/problems/minimum-speed-to-arrive-on-time/",
+              "platform": "leetcode"
+            }
+          ]
+        },
+        {
+          "title": "Allocate Minimum Pages",
+          "description": "Allocate minimum number of pages style problem (binary search on answer space).",
+          "company": "Uber SDE Intern",
+          "difficulty": "hard",
+          "links": [
+            {
+              "title": "Split Array Largest Sum \u2b50",
+              "url": "https://leetcode.com/problems/split-array-largest-sum/",
+              "platform": "leetcode"
+            },
+            {
+              "title": "GFG \u2013 Allocate Minimum Pages \u2b50 (from PDF)",
+              "url": "https://www.geeksforgeeks.org/allocate-minimum-number-pages/",
+              "platform": "gfg"
+            }
+          ]
+        },
+        {
+          "title": "Search in 2D Matrix",
+          "description": "Search/query parameter fetching \u2013 binary search on indexed data.",
+          "company": "MathWorks EDG",
+          "difficulty": "medium",
+          "links": [
+            {
+              "title": "Search a 2D Matrix",
+              "url": "https://leetcode.com/problems/search-a-2d-matrix/",
+              "platform": "leetcode"
+            },
+            {
+              "title": "Search a 2D Matrix II",
+              "url": "https://leetcode.com/problems/search-a-2d-matrix-ii/",
+              "platform": "leetcode"
+            }
+          ]
+        }
+      ],
+      "pattern": "Binary Search and Search Space"
+    },
+    {
+      "id": "greedy-intervals",
+      "icon": "\ud83d\udcc5",
+      "color": "rgba(86,211,100,.15)",
+      "problems": [
+        {
+          "title": "Minimum Platforms",
+          "description": "Minimum number of stations needed for given arrival-departure schedule.",
+          "company": "Google Application Engineer",
+          "difficulty": "medium",
+          "links": [
+            {
+              "title": "Meeting Rooms II \u2b50",
+              "url": "https://leetcode.com/problems/meeting-rooms-ii/",
+              "platform": "leetcode"
+            },
+            {
+              "title": "GFG \u2013 Minimum Platforms",
+              "url": "https://www.geeksforgeeks.org/minimum-number-platforms-required-railwaybus-station/",
+              "platform": "gfg"
+            }
+          ]
+        },
+        {
+          "title": "Max Sum from Ends (Greedy)",
+          "description": "Remove K elements from either start or end of an array for maximum sum.",
+          "company": "Rippling SDE",
+          "difficulty": "medium",
+          "links": [
+            {
+              "title": "Maximum Points from Cards \u2b50",
+              "url": "https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/",
+              "platform": "leetcode"
+            }
+          ]
+        },
+        {
+          "title": "Weighted Follow-up (Greedy \u2192 DP)",
+          "description": "Weighted follow-up to remove-from-ends: may require DP instead of greedy.",
+          "company": "Rippling SDE",
+          "difficulty": "hard",
+          "links": [
+            {
+              "title": "Stone Game (DP)",
+              "url": "https://leetcode.com/problems/stone-game/",
+              "platform": "leetcode"
+            },
+            {
+              "title": "Stone Game III",
+              "url": "https://leetcode.com/problems/stone-game-iii/",
+              "platform": "leetcode"
+            }
+          ]
+        },
+        {
+          "title": "Max Profit Job Scheduling (Greedy/DP)",
+          "description": "Weighted interval scheduling with DP + binary search.",
+          "company": "Slice SDE",
+          "difficulty": "hard",
+          "links": [
+            {
+              "title": "Job Scheduling (Max Profit) \u2b50",
+              "url": "https://leetcode.com/problems/job-scheduling-problem/",
+              "platform": "leetcode"
+            }
+          ]
+        },
+        {
+          "title": "Car Pooling",
+          "description": "Difference array / sweep-line for route capacity checks.",
+          "company": "Urban Company",
+          "difficulty": "medium",
+          "links": [
+            {
+              "title": "Car Pooling \u2b50 (from PDF)",
+              "url": "https://leetcode.com/problems/car-pooling/description/",
+              "platform": "leetcode"
+            }
+          ]
+        },
+        {
+          "title": "Merge Intervals",
+          "description": "Merge all overlapping intervals into minimum set.",
+          "company": "Urban Company",
+          "difficulty": "medium",
+          "links": [
+            {
+              "title": "Merge Intervals \u2b50 (from PDF)",
+              "url": "https://leetcode.com/problems/merge-intervals/description/",
+              "platform": "leetcode"
+            }
+          ]
+        },
+        {
+          "title": "Machine Cluster Job Scheduling",
+          "description": "Job scheduling on machine cluster with different configurations (load assignment/greedy).",
+          "company": "Mercedes Benz Data Science",
+          "difficulty": "medium",
+          "links": [
+            {
+              "title": "Task Scheduler \u2b50",
+              "url": "https://leetcode.com/problems/task-scheduler/",
+              "platform": "leetcode"
+            },
+            {
+              "title": "GFG \u2013 Job Scheduling Algorithm",
+              "url": "https://www.geeksforgeeks.org/job-scheduling-algorithm/",
+              "platform": "gfg"
+            }
+          ]
+        },
+        {
+          "title": "Delivery Optimization",
+          "description": "Model minimum number of delivery workers for city orders.",
+          "company": "Urban Company Bar Raiser",
+          "difficulty": "medium",
+          "links": [
+            {
+              "title": "Meeting Rooms II (workers = platforms)",
+              "url": "https://leetcode.com/problems/meeting-rooms-ii/",
+              "platform": "leetcode"
+            },
+            {
+              "title": "Min Arrows to Burst Balloons",
+              "url": "https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/",
+              "platform": "leetcode"
+            }
+          ]
+        }
+      ],
+      "pattern": "Greedy, Intervals, and Scheduling"
+    },
+    {
+      "id": "stacks-queues-caches",
+      "icon": "\ud83d\udcc1",
+      "color": "rgba(247,129,102,.15)",
+      "problems": [
+        {
+          "title": "Register Callbacks / Function Pointers",
+          "description": "Register callbacks/function pointers involving arrays, stacks, queues plus OS concepts.",
+          "company": "Pure Storage",
+          "difficulty": "medium",
+          "links": [
+            {
+              "title": "GFG \u2013 Function Pointers in C \u2b50",
+              "url": "https://www.geeksforgeeks.org/function-pointer-in-c/",
+              "platform": "gfg"
+            }
+          ]
+        },
+        {
+          "title": "LFU Cache \u2013 Implementation & Complexity",
+          "description": "Implement LFU cache and discuss time complexity of each operation.",
+          "company": "Urban Company",
+          "difficulty": "hard",
+          "links": [
+            {
+              "title": "LFU Cache \u2b50 (Hard)",
+              "url": "https://leetcode.com/problems/lfu-cache/",
+              "platform": "leetcode"
+            }
+          ]
+        },
+        {
+          "title": "Amazon Page Load \u2192 Cache Design",
+          "description": "How Amazon product pages load quickly; discussion led to LFU cache design and eviction policies.",
+          "company": "Urban Company",
+          "difficulty": "hard",
+          "links": [
+            {
+              "title": "LFU Cache",
+              "url": "https://leetcode.com/problems/lfu-cache/",
+              "platform": "leetcode"
+            },
+            {
+              "title": "LRU Cache",
+              "url": "https://leetcode.com/problems/lru-cache/",
+              "platform": "leetcode"
+            }
+          ]
+        },
+        {
+          "title": "LRU vs LFU \u2013 Types of Caching",
+          "description": "Explain data structures and implementation differences between LRU and LFU.",
+          "company": "Urban Company",
+          "difficulty": "medium",
+          "links": [
+            {
+              "title": "LRU Cache \u2b50",
+              "url": "https://leetcode.com/problems/lru-cache/",
+              "platform": "leetcode"
+            },
+            {
+              "title": "LFU Cache \u2b50",
+              "url": "https://leetcode.com/problems/lfu-cache/",
+              "platform": "leetcode"
+            }
+          ]
+        },
+        {
+          "title": "Calendar Event / Free Slot Finder",
+          "description": "Find available time slots for a user's calendar.",
+          "company": "Udaan",
+          "difficulty": "medium",
+          "links": [
+            {
+              "title": "My Calendar I",
+              "url": "https://leetcode.com/problems/my-calendar-i/",
+              "platform": "leetcode"
+            },
+            {
+              "title": "My Calendar II",
+              "url": "https://leetcode.com/problems/my-calendar-ii/",
+              "platform": "leetcode"
+            }
+          ]
+        },
+        {
+          "title": "Fitness App Booking API",
+          "description": "Fitness app API for booking/canceling events with conflict detection.",
+          "company": "Udaan",
+          "difficulty": "medium",
+          "links": [
+            {
+              "title": "My Calendar I",
+              "url": "https://leetcode.com/problems/my-calendar-i/",
+              "platform": "leetcode"
+            },
+            {
+              "title": "Design a Food Rating System",
+              "url": "https://leetcode.com/problems/design-a-food-rating-system/",
+              "platform": "leetcode"
+            }
+          ]
+        },
+        {
+          "title": "Home Automation Interface",
+          "description": "Maintain users and device lists using hash maps/classes.",
+          "company": "Uber",
+          "difficulty": "medium",
+          "links": [
+            {
+              "title": "Design HashMap",
+              "url": "https://leetcode.com/problems/design-hashmap/",
+              "platform": "leetcode"
+            },
+            {
+              "title": "Design Food Rating System",
+              "url": "https://leetcode.com/problems/design-a-food-rating-system/",
+              "platform": "leetcode"
+            }
+          ]
+        },
+        {
+          "title": "Queue Minimum \u2013 Pop Only",
+          "description": "Queue-minimum problem where only pop is available (no direct size access to m queues).",
+          "company": "MathWorks EDG",
+          "difficulty": "medium",
+          "links": [
+            {
+              "title": "Min Stack (analogous pattern)",
+              "url": "https://leetcode.com/problems/min-stack/",
+              "platform": "leetcode"
+            },
+            {
+              "title": "GFG \u2013 Queue using Stacks",
+              "url": "https://www.geeksforgeeks.org/queue-using-stacks/",
+              "platform": "gfg"
+            }
+          ]
+        }
+      ],
+      "pattern": "Stacks, Queues, and Caches"
+    },
+    {
+      "id": "strings-tries",
+      "icon": "\ud83d\udd24",
+      "color": "rgba(210,168,255,.15)",
+      "problems": [
+        {
+          "title": "First Non-Repeating with Bitmask",
+          "description": "First repeating and non-repeating character with space optimization from map to bitmask.",
+          "company": "Cisco SDE",
+          "difficulty": "easy",
+          "links": [
+            {
+              "title": "First Unique Character \u2b50",
+              "url": "https://leetcode.com/problems/first-unique-character-in-a-string/",
+              "platform": "leetcode"
+            },
+            {
+              "title": "GFG \u2013 First Non-Repeating Character",
+              "url": "https://www.geeksforgeeks.org/given-a-string-find-its-first-non-repeating-character/",
+              "platform": "gfg"
+            }
+          ]
+        },
+        {
+          "title": "Reverse Words In-Place",
+          "description": "Reverse words in a sentence in-place (O(1) extra space).",
+          "company": "Cisco SDE",
+          "difficulty": "medium",
+          "links": [
+            {
+              "title": "Reverse Words in a String \u2b50",
+              "url": "https://leetcode.com/problems/reverse-words-in-a-string/",
+              "platform": "leetcode"
+            }
+          ]
+        },
+        {
+          "title": "Trie-Based Question (Google)",
+          "description": "Trie-based question in written round.",
+          "company": "Google Application Engineer",
+          "difficulty": "medium",
+          "links": [
+            {
+              "title": "Implement Trie (Prefix Tree) \u2b50",
+              "url": "https://leetcode.com/problems/implement-trie-prefix-tree/",
+              "platform": "leetcode"
+            },
+            {
+              "title": "Word Search II (Trie Application)",
+              "url": "https://leetcode.com/problems/word-search-ii/",
+              "platform": "leetcode"
+            }
+          ]
+        },
+        {
+          "title": "Synonym Groups (DSU)",
+          "description": "Given list of synonym groups and a query of strings, find unique strings that differ in meaning. Core: Union-Find.",
+          "company": "Rippling SDE",
+          "difficulty": "medium",
+          "links": [
+            {
+              "title": "Sentence Similarity II (DSU) \u2b50",
+              "url": "https://leetcode.com/problems/sentence-similarity-ii/",
+              "platform": "leetcode"
+            },
+            {
+              "title": "Accounts Merge (DSU)",
+              "url": "https://leetcode.com/problems/accounts-merge/",
+              "platform": "leetcode"
+            }
+          ]
+        },
+        {
+          "title": "Word Ladder",
+          "description": "Find shortest transformation sequence from start word to end word, changing one letter at a time.",
+          "company": "Oracle",
+          "difficulty": "hard",
+          "links": [
+            {
+              "title": "Word Ladder \u2b50 (from PDF)",
+              "url": "https://leetcode.com/problems/word-ladder/",
+              "platform": "leetcode"
+            },
+            {
+              "title": "Word Ladder II (Hard \u2013 all paths)",
+              "url": "https://leetcode.com/problems/word-ladder-ii/",
+              "platform": "leetcode"
+            }
+          ]
+        }
+      ],
+      "pattern": "Strings and Tries"
+    },
+    {
+      "id": "bit-manipulation",
+      "icon": "\u2699",
+      "color": "rgba(255,166,87,.15)",
+      "problems": [
+        {
+          "title": "Character Frequency via Bitmask",
+          "description": "Optimize character-frequency space using 32-bit masking (replace frequency array/map with bitmask).",
+          "company": "Cisco SDE",
+          "difficulty": "medium",
+          "links": [
+            {
+              "title": "Find the Difference (XOR)",
+              "url": "https://leetcode.com/problems/find-the-difference/",
+              "platform": "leetcode"
+            },
+            {
+              "title": "Missing Number (XOR/Bitmask)",
+              "url": "https://leetcode.com/problems/missing-number/",
+              "platform": "leetcode"
+            }
+          ]
+        },
+        {
+          "title": "Max XOR Score \u2013 Powers of 2",
+          "description": "Pair elements to maximize total XOR score from powers of 2.",
+          "company": "Urban Company SDE",
+          "difficulty": "hard",
+          "links": [
+            {
+              "title": "Maximum XOR of Two Numbers \u2b50",
+              "url": "https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/",
+              "platform": "leetcode"
+            },
+            {
+              "title": "Maximum XOR with Element from Array",
+              "url": "https://leetcode.com/problems/maximum-xor-with-an-element-from-array/",
+              "platform": "leetcode"
+            }
+          ]
+        },
+        {
+          "title": "Bit Manipulation Coding (Western Digital)",
+          "description": "Multiple bit manipulation and number coding questions.",
+          "company": "Western Digital SDE",
+          "difficulty": "medium",
+          "links": [
+            {
+              "title": "Number of 1 Bits",
+              "url": "https://leetcode.com/problems/number-of-1-bits/",
+              "platform": "leetcode"
+            },
+            {
+              "title": "Reverse Bits",
+              "url": "https://leetcode.com/problems/reverse-bits/",
+              "platform": "leetcode"
+            },
+            {
+              "title": "Counting Bits",
+              "url": "https://leetcode.com/problems/counting-bits/",
+              "platform": "leetcode"
+            }
+          ]
+        },
+        {
+          "title": "Bit Macros in C",
+          "description": "Use macros for bit manipulation in C (set, clear, toggle, test bit macros).",
+          "company": "Western Digital SDE",
+          "difficulty": "medium",
+          "links": [
+            {
+              "title": "GFG \u2013 Bit Manipulation Tactics \u2b50",
+              "url": "https://www.geeksforgeeks.org/bits-manipulation-important-tactics/",
+              "platform": "gfg"
+            }
+          ]
+        },
+        {
+          "title": "32-bit vs 64-bit Architecture",
+          "description": "Difference between 32-bit and 64-bit address machines and storage bytes; pointer size implications.",
+          "company": "Western Digital SDE",
+          "difficulty": "easy",
+          "links": [
+            {
+              "title": "GFG \u2013 32-bit vs 64-bit OS \u2b50",
+              "url": "https://www.geeksforgeeks.org/difference-32-bit-64-bit-operating-systems/",
+              "platform": "gfg"
+            }
+          ]
+        },
+        {
+          "title": "Swap Upper/Lower Bytes",
+          "description": "Swap upper/lower bytes in a word using bitwise operations.",
+          "company": "Mediatek Design Verification",
+          "difficulty": "easy",
+          "links": [
+            {
+              "title": "GFG \u2013 Swap Nibbles in a Byte \u2b50",
+              "url": "https://www.geeksforgeeks.org/swap-two-nibbles-byte/",
+              "platform": "gfg"
+            },
+            {
+              "title": "Reverse Bits",
+              "url": "https://leetcode.com/problems/reverse-bits/",
+              "platform": "leetcode"
+            }
+          ]
+        }
+      ],
+      "pattern": "Bit Manipulation and Low-level Coding"
+    },
+    {
+      "id": "design-lld",
+      "icon": "\ud83c\udfd7",
+      "color": "rgba(121,192,255,.15)",
+      "problems": [
+        {
+          "title": "Design Adoption Center",
+          "description": "Support dogs/cats: add animal, adopt dog, adopt cat, adopt any animal (oldest first). Choose data structures and write production-ready code.",
+          "company": "Amazon SDE Intern",
+          "difficulty": "medium",
+          "links": [
+            {
+              "title": "InterviewBit \u2013 LLD Questions \u2b50 (from PDF)",
+              "url": "https://www.interviewbit.com/low-level-design-interview-questions/",
+              "platform": "interviewbit"
+            },
+            {
+              "title": "Design Food Rating System",
+              "url": "https://leetcode.com/problems/design-a-food-rating-system/",
+              "platform": "leetcode"
+            }
+          ]
+        },
+        {
+          "title": "Design Calendar System",
+          "description": "Design a calendar with users, events, adding users to events, listing events, and finding free slots.",
+          "company": "Udaan",
+          "difficulty": "medium",
+          "links": [
+            {
+              "title": "My Calendar II \u2b50",
+              "url": "https://leetcode.com/problems/my-calendar-ii/",
+              "platform": "leetcode"
+            },
+            {
+              "title": "Meeting Scheduler",
+              "url": "https://leetcode.com/problems/meeting-scheduler/",
+              "platform": "leetcode"
+            }
+          ]
+        },
+        {
+          "title": "Design Fitness App API",
+          "description": "API for a fitness app to book/cancel events (conflict detection, atomic operations).",
+          "company": "Udaan",
+          "difficulty": "medium",
+          "links": [
+            {
+              "title": "My Calendar I",
+              "url": "https://leetcode.com/problems/my-calendar-i/",
+              "platform": "leetcode"
+            },
+            {
+              "title": "Design Food Rating System",
+              "url": "https://leetcode.com/problems/design-a-food-rating-system/",
+              "platform": "leetcode"
+            }
+          ]
+        },
+        {
+          "title": "Design Home Automation",
+          "description": "Implement a home automation interface with users, devices, and command dispatch.",
+          "company": "Uber",
+          "difficulty": "medium",
+          "links": [
+            {
+              "title": "Design HashMap",
+              "url": "https://leetcode.com/problems/design-hashmap/",
+              "platform": "leetcode"
+            },
+            {
+              "title": "GFG \u2013 Command Design Pattern \u2b50",
+              "url": "https://www.geeksforgeeks.org/command-design-pattern/",
+              "platform": "gfg"
+            }
+          ]
+        },
+        {
+          "title": "Design Splitwise",
+          "description": "Add/delete/edit/settle expenses, groups, equal/exact/percentage split, get transaction details.",
+          "company": "Urban Company",
+          "difficulty": "hard",
+          "links": [
+            {
+              "title": "GFG \u2013 Minimize Cash Flow (Splitwise) \u2b50",
+              "url": "https://www.geeksforgeeks.org/minimize-cash-flow-among-given-set-friends-borrowed-money/",
+              "platform": "gfg"
+            },
+            {
+              "title": "InterviewBit \u2013 LLD Questions",
+              "url": "https://www.interviewbit.com/low-level-design-interview-questions/",
+              "platform": "interviewbit"
+            }
+          ]
+        },
+        {
+          "title": "Design Chessboard (OOP)",
+          "description": "Design a chessboard using OOP principles (classes for Board, Piece, Player, Move).",
+          "company": "Urban Company",
+          "difficulty": "medium",
+          "links": [
+            {
+              "title": "N-Queens (Chessboard DSA)",
+              "url": "https://leetcode.com/problems/n-queens/",
+              "platform": "leetcode"
+            },
+            {
+              "title": "GFG \u2013 Design Chess Game OOP \u2b50",
+              "url": "https://www.geeksforgeeks.org/design-chess-game-oops-way/",
+              "platform": "gfg"
+            }
+          ]
+        },
+        {
+          "title": "Design Car Rental (Zoomcar)",
+          "description": "Design a car rental platform \u2013 classes, database schema, booking APIs.",
+          "company": "Urban Company",
+          "difficulty": "medium",
+          "links": [
+            {
+              "title": "GFG \u2013 Car Rental System Design \u2b50",
+              "url": "https://www.geeksforgeeks.org/system-design-of-car-rental-system/",
+              "platform": "gfg"
+            }
+          ]
+        },
+        {
+          "title": "Design Library System",
+          "description": "Design a public library system with database design, API calls, functional and non-functional requirements.",
+          "company": "Google Application Engineer",
+          "difficulty": "medium",
+          "links": [
+            {
+              "title": "GFG \u2013 Library Management Design \u2b50",
+              "url": "https://www.geeksforgeeks.org/design-library-management-system/",
+              "platform": "gfg"
+            }
+          ]
+        },
+        {
+          "title": "Design Load Balancer",
+          "description": "Data structures and algorithms: round robin, least connections, consistent hashing.",
+          "company": "Slice",
+          "difficulty": "hard",
+          "links": [
+            {
+              "title": "Random Pick with Weight (weighted LB)",
+              "url": "https://leetcode.com/problems/random-pick-with-weight/",
+              "platform": "leetcode"
+            },
+            {
+              "title": "GFG \u2013 Load Balancing Algorithms \u2b50",
+              "url": "https://www.geeksforgeeks.org/load-balancing-algorithms-types-examples/",
+              "platform": "gfg"
+            }
+          ]
+        },
+        {
+          "title": "Design Student-Course Database",
+          "description": "Schema design with data structure considerations.",
+          "company": "Slice",
+          "difficulty": "easy",
+          "links": [
+            {
+              "title": "GFG \u2013 Student Database Design \u2b50",
+              "url": "https://www.geeksforgeeks.org/how-to-design-a-student-database-management-system/",
+              "platform": "gfg"
+            }
+          ]
+        }
+      ],
+      "pattern": "Design-flavored DSA / LLD Questions"
+    }
+  ]
+}
