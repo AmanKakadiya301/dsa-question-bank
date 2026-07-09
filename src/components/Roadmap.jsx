@@ -158,7 +158,8 @@ export default function Roadmap({
   // Breakdown diffs
   const diffStats = { easy: {s:0, t:0}, medium: {s:0, t:0}, hard: {s:0, t:0} };
   patterns.forEach(p => p.problems.forEach(prob => {
-    const diff = prob.difficulty || 'medium';
+    let diff = (prob.difficulty || 'medium').toLowerCase();
+    if (!diffStats[diff]) diff = 'medium'; // fallback
     diffStats[diff].t++;
     if (solved[`${p.pattern}::${prob.title}`]) diffStats[diff].s++;
   }));
