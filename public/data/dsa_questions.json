@@ -2206,15 +2206,166 @@
     },
     {
       "pattern": "Design-flavored DSA / LLD Questions",
-      "problems": []
-    },
-    {
-      "pattern": "External Links Found in Source PDFs",
-      "problems": []
-    },
-    {
-      "pattern": "Priority Preparation Plan",
-      "problems": []
+      "problems": [
+        {
+          "title": "Design an adoption center supporting dogs/cats: add animal, adopt dog, adopt cat, adopt any animal (...",
+          "full_title": "Design an adoption center supporting dogs/cats: add animal, adopt dog, adopt cat, adopt any animal (oldest first). Choose data structures and write production-ready code.",
+          "link": "https://www.interviewbit.com/low-level-design-interview-questions/",
+          "links": [
+            {
+              "name": "\ud83d\udd34 InterviewBit \u2013 LLD Questions \u2b50 (from PDF)",
+              "url": "https://www.interviewbit.com/low-level-design-interview-questions/"
+            },
+            {
+              "name": "\ud83e\udde1 Design Food Rating System (analogous)",
+              "url": "https://leetcode.com/problems/design-a-food-rating-system/"
+            }
+          ],
+          "difficulty": "Medium",
+          "type": "Reported"
+        },
+        {
+          "title": "Design a calendar with users, events, adding users to events, listing events, and finding free slots...",
+          "full_title": "Design a calendar with users, events, adding users to events, listing events, and finding free slots.",
+          "link": "https://leetcode.com/problems/my-calendar-ii/",
+          "links": [
+            {
+              "name": "\ud83e\udde1 My Calendar II \u2b50",
+              "url": "https://leetcode.com/problems/my-calendar-ii/"
+            },
+            {
+              "name": "\ud83e\udde1 Meeting Scheduler",
+              "url": "https://leetcode.com/problems/meeting-scheduler/"
+            }
+          ],
+          "difficulty": "Medium",
+          "type": "Reported"
+        },
+        {
+          "title": "Design an API for a fitness app to book/cancel events (conflict detection, atomic operations).",
+          "full_title": "Design an API for a fitness app to book/cancel events (conflict detection, atomic operations).",
+          "link": "https://leetcode.com/problems/my-calendar-i/",
+          "links": [
+            {
+              "name": "\ud83e\udde1 My Calendar I",
+              "url": "https://leetcode.com/problems/my-calendar-i/"
+            },
+            {
+              "name": "\ud83e\udde1 Design Food Rating System",
+              "url": "https://leetcode.com/problems/design-a-food-rating-system/"
+            }
+          ],
+          "difficulty": "Medium",
+          "type": "Reported"
+        },
+        {
+          "title": "Implement a home automation interface with users, devices, and command dispatch.",
+          "full_title": "Implement a home automation interface with users, devices, and command dispatch.",
+          "link": "https://leetcode.com/problems/design-hashmap/",
+          "links": [
+            {
+              "name": "\ud83e\udde1 Design HashMap",
+              "url": "https://leetcode.com/problems/design-hashmap/"
+            },
+            {
+              "name": "\ud83d\udfea GFG \u2013 Command Design Pattern \u2b50",
+              "url": "https://www.geeksforgeeks.org/command-design-pattern/"
+            }
+          ],
+          "difficulty": "Medium",
+          "type": "Reported"
+        },
+        {
+          "title": "Design Splitwise: add/delete/edit/settle expenses, groups, equal/exact/percentage split, get transac...",
+          "full_title": "Design Splitwise: add/delete/edit/settle expenses, groups, equal/exact/percentage split, get transaction details.",
+          "link": "https://www.geeksforgeeks.org/minimize-cash-flow-among-given-set-friends-borrowed-money/",
+          "links": [
+            {
+              "name": "\ud83d\udfea GFG \u2013 Minimize Cash Flow (Splitwise Algorithm) \u2b50",
+              "url": "https://www.geeksforgeeks.org/minimize-cash-flow-among-given-set-friends-borrowed-money/"
+            },
+            {
+              "name": "\ud83d\udd34 InterviewBit \u2013 LLD Questions",
+              "url": "https://www.interviewbit.com/low-level-design-interview-questions/"
+            }
+          ],
+          "difficulty": "Medium",
+          "type": "Reported"
+        },
+        {
+          "title": "Design a chessboard using OOP principles (classes for Board, Piece, Player, Move).",
+          "full_title": "Design a chessboard using OOP principles (classes for Board, Piece, Player, Move).",
+          "link": "https://leetcode.com/problems/n-queens/",
+          "links": [
+            {
+              "name": "\ud83e\udde1 N-Queens (Chessboard DSA)",
+              "url": "https://leetcode.com/problems/n-queens/"
+            },
+            {
+              "name": "\ud83d\udfea GFG \u2013 Design Chess Game OOP \u2b50",
+              "url": "https://www.geeksforgeeks.org/design-chess-game-oops-way/"
+            }
+          ],
+          "difficulty": "Medium",
+          "type": "Reported"
+        },
+        {
+          "title": "Design a car rental platform / Zoomcar-like system (classes, database schema, booking APIs).",
+          "full_title": "Design a car rental platform / Zoomcar-like system (classes, database schema, booking APIs).",
+          "link": "https://www.geeksforgeeks.org/system-design-of-car-rental-system/",
+          "links": [
+            {
+              "name": "\ud83d\udfea GFG \u2013 Car Rental System Design \u2b50",
+              "url": "https://www.geeksforgeeks.org/system-design-of-car-rental-system/"
+            }
+          ],
+          "difficulty": "Medium",
+          "type": "Reported"
+        },
+        {
+          "title": "Design a public library system with database design, API calls, functional and non-functional requir...",
+          "full_title": "Design a public library system with database design, API calls, functional and non-functional requirements.",
+          "link": "https://www.geeksforgeeks.org/design-library-management-system/",
+          "links": [
+            {
+              "name": "\ud83d\udfea GFG \u2013 Library Management System Design \u2b50",
+              "url": "https://www.geeksforgeeks.org/design-library-management-system/"
+            }
+          ],
+          "difficulty": "Medium",
+          "type": "Reported"
+        },
+        {
+          "title": "Design a load balancer (data structures and algorithms: round robin, least connections, consistent h...",
+          "full_title": "Design a load balancer (data structures and algorithms: round robin, least connections, consistent hashing).",
+          "link": "https://leetcode.com/problems/random-pick-with-weight/",
+          "links": [
+            {
+              "name": "\ud83e\udde1 Random Pick with Weight (weighted LB)",
+              "url": "https://leetcode.com/problems/random-pick-with-weight/"
+            },
+            {
+              "name": "\ud83d\udfea GFG \u2013 Load Balancing Algorithms \u2b50",
+              "url": "https://www.geeksforgeeks.org/load-balancing-algorithms-types-examples/"
+            }
+          ],
+          "difficulty": "Medium",
+          "type": "Reported"
+        },
+        {
+          "title": "Design a Student-Course database (schema design with data structure considerations).",
+          "full_title": "Design a Student-Course database (schema design with data structure considerations).",
+          "link": "https://www.geeksforgeeks.org/how-to-design-a-student-database-management-system/",
+          "links": [
+            {
+              "name": "\ud83d\udfea GFG \u2013 Student Database Design \u2b50",
+              "url": "https://www.geeksforgeeks.org/how-to-design-a-student-database-management-system/"
+            }
+          ],
+          "difficulty": "Medium",
+          "type": "Reported"
+        }
+      ]
     },
     {
       "pattern": "External Links Found in Source PDFs",
