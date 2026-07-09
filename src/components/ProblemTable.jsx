@@ -94,10 +94,11 @@ export default function ProblemTable({
                       href={problem.links && problem.links.length > 0 ? problem.links[0].url : problem.link}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className={`text-[13px] leading-snug font-medium tracking-wide transition-all duration-300 truncate w-full
+                      title={problem.description || problem.title}
+                      className={`text-[13px] leading-snug font-medium tracking-wide transition-all duration-300 truncate w-full block
                         ${isSolved ? 'text-silver-600 line-through decoration-silver-800 opacity-60' : 'text-silver-200 hover:text-gold-500'}`}
                     >
-                      {problem.title}
+                      {problem.short_title || problem.title}
                     </a>
                   </div>
                   <div className="flex items-center">
@@ -140,10 +141,11 @@ export default function ProblemTable({
                       href={problem.links && problem.links.length > 0 ? problem.links[0].url : problem.link}
                       target="_blank"
                       rel="noopener noreferrer"
+                      title={problem.description || problem.title}
                       className={`text-[12px] leading-snug font-medium tracking-wide transition-all duration-300 block truncate
                         ${isSolved ? 'text-silver-600 line-through decoration-silver-800 opacity-60' : 'text-silver-200'}`}
                     >
-                      {problem.title}
+                      {problem.short_title || problem.title}
                     </a>
                     <div className="flex items-center gap-2 mt-1">
                       {getDifficultyBadge(problem.difficulty)}
